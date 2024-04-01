@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "fullName": "Jane Smith",
+      "indexNumber": "5221040398",
+      "password": "password2",
+      "id": "9441"
+    },
+    {
+      "fullName": "Alice Johnson",
+      "indexNumber": "5221040156",
+      "password": "password3",
+      "id": "9442"
+    },
+    {
+      "fullName": "Bob Williams",
+      "indexNumber": "5221040651",
+      "password": "password4",
+      "id": "9443"
+    },
+    {
+      "fullName": "Sarah Davis",
+      "indexNumber": "5221040561",
+      "password": "password5",
+      "id": "9444"
+    },
+    {
+      "id": "70a1",
+      "fullname": "Masood Acheampong",
+      "indexNumber": "5221040145",
+      "password": "masood-003"
+    }
+  ]
+}

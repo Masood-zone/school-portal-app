@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Overflow styling */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Style the track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #1d1d1d;
+}
+
+/* Style the thumb (foreground) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #1d1d1d;
+}
+
+/* Optionally, style the thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1d1d1d;
+}
