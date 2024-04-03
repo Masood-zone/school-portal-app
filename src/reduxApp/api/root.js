@@ -4,7 +4,7 @@ const createUrl = (apiUrl) => (path) =>
   path.startsWith("/") ? `${apiUrl}${path}` : `${apiUrl}/${path}`;
 axios.interceptors.request.use((req) => {
   if (req.url.startsWith("/api")) return req;
-  req.url = createUrl("http://localhost:3000")(req.url);
+  req.url = createUrl("http://localhost:8080")(req.url);
   req.withCredentials = false;
   return req;
 });
