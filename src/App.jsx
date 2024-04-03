@@ -10,6 +10,7 @@ import Registration from "./pages/registration";
 import Results from "./pages/results";
 import NotFound from "./pages/notFound";
 import Home from "./pages/home";
+import Courses from "./pages/courses";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/payment" element={<Payments />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/results" element={<Results />} />
+          <Route path="/courses" element={<Courses />} />
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />

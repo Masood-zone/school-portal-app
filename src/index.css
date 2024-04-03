@@ -5,24 +5,25 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: #e8e8e8;
 }
 
 /* Overflow styling */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 1px;
 }
 
 /* Style the track (background) of the scrollbar */
 ::-webkit-scrollbar-track {
-  background: #1d1d1d;
+  background: #e8e8e8;
 }
 
 /* Style the thumb (foreground) of the scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #1d1d1d;
+  background: #e8e8e8;
 }
 
 /* Optionally, style the thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #1d1d1d;
+  background: #e8e8e8;
 }

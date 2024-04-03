@@ -4,31 +4,193 @@
       "fullName": "Jane Smith",
       "indexNumber": "5221040398",
       "password": "password2",
+      "programOfStudy": "BSc. Information Technology",
+      "level": "200",
+      "courses": [
+        {
+          "courseCode": "IT 101",
+          "courseTitle": "Introduction to Information Technology",
+          "creditHours": "3",
+          "grade": "A"
+        },
+        {
+          "courseCode": "IT 102",
+          "courseTitle": "Introduction to Programming",
+          "creditHours": "3",
+          "grade": "B+"
+        },
+        {
+          "courseCode": "IT 103",
+          "courseTitle": "Introduction to Web Development",
+          "creditHours": "3",
+          "grade": "A"
+        },
+        {
+          "courseCode": "IT 104",
+          "courseTitle": "Introduction to Networking",
+          "creditHours": "3",
+          "grade": "A"
+        },
+        {
+          "courseCode": "IT 105",
+          "courseTitle": "Introduction to Database Management",
+          "creditHours": "2",
+          "grade": "B"
+        }
+      ],
+      "department": "Department of Information Technology Education",
+      "payments": [
+        {
+          "paymentType": "School Fees",
+          "amount": 1000,
+          "balance": 65,
+          "date": "2023-10-10",
+          "id": "1"
+        },
+        {
+          "paymentType": "Bill for (2022/2023) Academic Year",
+          "amount": "2000",
+          "balance": "650",
+          "date": "2022-09-10",
+          "id": "2"
+        },
+        {
+          "paymentType": "School Fees",
+          "amount": "1000",
+          "balance": "500",
+          "date": "2020-10-10",
+          "id": "3"
+        }
+      ],
       "id": "9441"
-    },
-    {
-      "fullName": "Alice Johnson",
-      "indexNumber": "5221040156",
-      "password": "password3",
-      "id": "9442"
-    },
-    {
-      "fullName": "Bob Williams",
-      "indexNumber": "5221040651",
-      "password": "password4",
-      "id": "9443"
-    },
-    {
-      "fullName": "Sarah Davis",
-      "indexNumber": "5221040561",
-      "password": "password5",
-      "id": "9444"
     },
     {
       "id": "70a1",
       "fullname": "Masood Acheampong",
       "indexNumber": "5221040145",
-      "password": "masood-003"
+      "password": "masood-003",
+      "level": "100",
+      "programOfStudy": "BSc. Fashion Design",
+      "courses": [
+        {
+          "courseCode": "FD 101",
+          "courseTitle": "Introduction to Fashion Design",
+          "creditHours": "3",
+          "grade": "A"
+        },
+        {
+          "courseCode": "FD 102",
+          "courseTitle": "Fashion Design and Technology",
+          "creditHours": "3",
+          "grade": "B"
+        },
+        {
+          "courseCode": "FD 103",
+          "courseTitle": "Fashion Design and Marketing",
+          "creditHours": "3",
+          "grade": "C"
+        },
+        {
+          "courseCode": "FD 104",
+          "courseTitle": "Fashion Design and Production",
+          "creditHours": "3",
+          "grade": "B+"
+        },
+        {
+          "courseCode": "FD 105",
+          "courseTitle": "Fashion Design and Management",
+          "creditHours": "3",
+          "grade": "C"
+        }
+      ],
+      "department": "Department of Fashion Design",
+      "payments": [
+        {
+          "paymentType": "School Fees",
+          "amount": "1000",
+          "balance": "400",
+          "date": "2022-10-10",
+          "id": "1"
+        },
+        {
+          "paymentType": "Bill for (2022/2023) Academic Year",
+          "amount": "2000",
+          "balance": "50",
+          "date": "2024-01-15",
+          "id": "2"
+        },
+        {
+          "paymentType": "School Fees",
+          "amount": "1000",
+          "balance": "-300",
+          "date": "2024-01-01",
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "fc7e",
+      "fullname": "Boateng",
+      "indexNumber": "5221040100",
+      "password": "masood-003",
+      "level": "300",
+      "programOfStudy": "BSc. Mathemeatics",
+      "courses": [
+        {
+          "courseCode": "MTH 101",
+          "courseTitle": "Introduction to Mathematics",
+          "creditHours": "3",
+          "grade": "B"
+        },
+        {
+          "courseCode": "MTH 102",
+          "courseTitle": "Introduction to Algebra",
+          "creditHours": "3",
+          "grade": "C"
+        },
+        {
+          "courseCode": "MTH 103",
+          "courseTitle": "Introduction to Calculus",
+          "creditHours": "3",
+          "grade": "A"
+        },
+        {
+          "courseCode": "MTH 104",
+          "courseTitle": "Introduction to Geometry",
+          "creditHours": "3",
+          "grade": "B+"
+        },
+        {
+          "courseCode": "MTH 105",
+          "courseTitle": "Introduction to Statistics",
+          "creditHours": "3",
+          "grade": "A"
+        }
+      ],
+      "department": "Department of Mathematics",
+      "payments": [
+        {
+          "paymentType": "School Fees",
+          "amount": "1000",
+          "balance": "295",
+          "date": "2022-09-14",
+          "id": "1"
+        },
+        {
+          "paymentType": "School Fees",
+          "amount": "1000",
+          "balance": "-1000",
+          "date": "2020-03-15 ",
+          "id": "3"
+        },
+        {
+          "paymentType": "School Fees",
+          "amount": "1500",
+          "balance": "1000",
+          "date": "2020-04-12",
+          "id": "3"
+        }
+      ]
     }
   ]
 }
